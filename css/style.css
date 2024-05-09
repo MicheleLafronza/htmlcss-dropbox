@@ -190,6 +190,16 @@ nav ul a {
 
 }
 
+.check-blue li::marker {
+    content: ' \2714';
+    color: blue;
+    margin-right: 10px;
+}
+
+.check-blue li span {
+    margin-left: 5px;
+}
+
 .plan-details-list li {
     margin-bottom: 10px;
 }
