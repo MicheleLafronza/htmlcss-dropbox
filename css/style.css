@@ -1,0 +1,81 @@
+/* regole generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* REGOLE HEADER */
+header {
+    width: 100%;
+    background-color: rgba(180,208,231,255);
+    /* DEBUG */
+    min-height: 300px;
+}
+
+/* regole nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 70px;
+}
+
+nav ul {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style-type: none;
+}
+
+#nav-ul-left {
+    margin-left: 10px;
+}
+
+#nav-ul-right {
+    margin-right: 10px;
+    justify-content: flex-end;
+}
+
+/* regole head banner */
+#head-banner {
+    width: 80%;
+    margin: 40px auto 0px auto ;
+}
+
+#head-banner h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#banner-flex-container {
+    display: flex;
+    /* DEBUG */
+    border: dashed 5px;
+    min-height: 200px;
+}
+
+#banner-right-item {
+    width: 65%;
+    /* DEBUG */
+    border: dashed 5px;
+    background-color: brown;
+}
+
+
+#banner-left-item {
+    width: 35%;
+    /* DEBUG */
+    border: dashed 5px;
+    background-color: brown;
+}
+
+/* /FINE REGOLE HEADER */
+
+
+
+/* REGOLE MAIN */
