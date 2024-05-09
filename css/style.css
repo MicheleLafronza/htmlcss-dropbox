@@ -111,7 +111,6 @@ nav ul {
     width: 30%;
     border: solid 2px rgba(236,236,237,255);
     /* DEBUG */
-    min-height: 200px;
 }
 
 .plan-type {
@@ -140,4 +139,42 @@ nav ul {
 
 .plan-duration {
     color: rgba(189,158,156,255);
+    margin-bottom: 40px;
+}
+
+.plan-details-list {
+    list-style-type: none;
+    margin-bottom: 40px;
+
+}
+
+.plan-details-list li {
+    margin-bottom: 10px;
+}
+
+.plan-button-try {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+.plan-buy-now {
+    width: 100%;
+    padding: 40px 0px 40px 0px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.plan-buy-now-border {
+    position: absolute;
+    width: 15%;
+    left: 0px;
+    bottom: 0px;
+    border-bottom: solid 2px rgba(236,236,237,255);;
+}
+
+.plan-feature-title {
+    margin-bottom: 30px;
 }
