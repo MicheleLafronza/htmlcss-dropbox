@@ -115,6 +115,10 @@ nav ul a {
 
 
 /* REGOLE MAIN */
+.section-title {
+    font-size: 30px;
+    margin-bottom: 70px;
+}
 
 /* regole piani tariffari */
 #plans {
@@ -122,10 +126,6 @@ nav ul a {
     margin: 70px auto 40px auto;
 }
 
-#plan-title {
-    font-size: 30px;
-    margin-bottom: 70px;
-}
 #radio-flex-container {
     width: 40%;
     display: flex;
@@ -276,9 +276,12 @@ nav ul a {
 
 
 /* inizio regole sezione contatto */
-#flex-container-contatto {
+#contatto {
     width: 60%;
-    margin: 100px auto 50px auto;
+    margin: 100px auto 80px auto;
+}
+#flex-container-contatto {
+    width: 100%;
     display: flex;
 }
 
@@ -313,4 +316,37 @@ nav ul a {
     color: black;
     padding: 8px;
     border: solid 2px black;
+}
+/* fine regole sezione contatto */
+
+
+/* inizio regole sezion più operazioni */
+#piu-operazioni {
+    width: 60%;
+    margin: 0px auto ;
+}
+
+#piu-operazioni h1 {
+    margin-bottom: 30px;
+}
+
+#flex-container-piu-operazioni {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col-piu-operazioni {
+    width: 30%;
+
+}
+
+.col-piu-operazioni img {
+    max-width: 100%;
+}
+
+.col-piu-operazioni h1 {
+    margin-bottom: 15px;
 }
