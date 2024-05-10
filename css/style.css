@@ -350,3 +350,27 @@ nav ul a {
 .col-piu-operazioni h1 {
     margin-bottom: 15px;
 }
+/* /fine regole sezione più operazioni */
+
+
+/* inizio regole sezione scopri clienti */
+#scopri-clienti {
+    width: 60%;
+    margin: 200px auto 30px auto ;
+}
+
+#scopri-clienti h1 {
+    width: 50%;
+}
+
+#scopri-clienti a {
+    text-decoration: underline;
+}
+/* /fine regole sezione scopri clienti */
+
+
+
+/* inizio regole customer */
+
+
+/* /fine regole customer */
