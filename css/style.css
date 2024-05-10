@@ -379,13 +379,102 @@ nav ul a {
 /* inizio regole customer */
 #customer {
     width: 100%;
-    /* debug */
-    background-color: red;
-    min-height: 400px;
+    display: flex;
 }
+
+.col-customer {
+    width: calc(100% / 3);
+    /* debug */
+    min-height: 500px; 
+}
+
+.col-customer-side {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customer-box {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+}
+
+.customer-box img {
+    max-width: 50%;
+    filter: brightness(0) invert(1);
+}
+
+/* regole customer centrale */
+#customer-central {
+    background-color: rgba(245,245,245,255);
+}
+
+#c-central-container {
+    width: 90%;
+    margin: 50px auto 0px auto;
+    /* debug */
+    min-height: 80%;
+}
+
+#c-central-container img {
+    max-width: 34%;
+}
+
+#line {
+    width: 10%;
+    height: 30px;
+    border-bottom: solid 1px rgba(231,231,232,255);
+}
+
+#firma-customer {
+    margin-top: 50px;
+}
+
+
+
+/* /fine regole customer centrale */
+
+
+/* regole id vari marchi */
+#designit {
+    background-color: rgba(162,211,155,255);
+}
+
+#arizona {
+    background-color: black;
+}
+
+#florida {
+    background-color: rgba(0,147,206,255);
+}
+
+#topps {
+    background-color: rgba(255,28,28,255);
+}
+
+#world-bicycle {
+    background-color: rgba(213,0,31,255);
+}
+
+#lonely-planet {
+    background-color: rgba(13,36,129,255);
+}
+
+#hearts {
+    background-color: rgba(180,208,231,255);
+}
+
+#clear-channel {
+    background-color: rgba(255,216,48,255);
+}
+/* /fine regole id vari marchi */
+
+
 /* /fine regole customer */
 
-/* rgba(180,208,231,255) */
 
 /* inizio regole sezione dropbox business */
 #dropbox-business {
@@ -489,6 +578,5 @@ footer {
     padding: 60px 20px 20px 20px;
     color: rgba(216,216,216,255);
     border-top: solid 1px rgba(216,216,216,255);
-    
-
 }
+/* /FINE REGOLE FOOTER */
