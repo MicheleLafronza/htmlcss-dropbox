@@ -311,10 +311,16 @@ nav ul a {
 }
 
 .white-button {
-    width: 30%;
     background-color: white;
     color: black;
     padding: 8px;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.border-2 {
     border: solid 2px black;
 }
 /* fine regole sezione contatto */
@@ -378,3 +384,27 @@ nav ul a {
     min-height: 400px;
 }
 /* /fine regole customer */
+
+/* rgba(180,208,231,255) */
+
+/* inizio regole sezione dropbox business */
+#dropbox-business {
+    width: 100%;
+    background-color: rgba(180,208,231,255);
+}
+
+#flex-container-business {
+    width: 60%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#business-title {
+    font-size: 30px;
+    width: 40%;
+}
+/* /fine regole sezione dropbox business */
