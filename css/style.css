@@ -408,3 +408,34 @@ nav ul a {
     width: 40%;
 }
 /* /fine regole sezione dropbox business */
+
+
+/* inizio regole faq */
+#faq {
+    width: 60%;
+    margin: 200px auto 200px auto;
+    /* debug */
+}
+
+#faq h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    
+}
+
+.faq-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid 1px rgba(184,184,184,255);
+    border-bottom: solid 1px rgba(184,184,184,255);
+    
+}
+
+.question {
+    padding: 40px 0 40px 0;
+    font-weight: bold;
+    
+}
+/* fine regole faq */
