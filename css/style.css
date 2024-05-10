@@ -356,7 +356,7 @@ nav ul a {
 /* inizio regole sezione scopri clienti */
 #scopri-clienti {
     width: 60%;
-    margin: 200px auto 30px auto ;
+    margin: 200px auto 150px auto ;
 }
 
 #scopri-clienti h1 {
@@ -371,6 +371,10 @@ nav ul a {
 
 
 /* inizio regole customer */
-
-
+#customer {
+    width: 100%;
+    /* debug */
+    background-color: red;
+    min-height: 400px;
+}
 /* /fine regole customer */
