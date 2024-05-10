@@ -234,8 +234,11 @@ nav ul a {
 .plan-feature-title {
     margin-bottom: 30px;
 }
+/* /fine regole piani tariffari */
 
-/* regole sezione uff vendite */
+
+
+/* regole uff vendite */
 #uff-vendite {
     margin: 0 auto;
     width: 60%;
@@ -268,4 +271,46 @@ nav ul a {
     width: 60%;
     margin-left: 20px;
     margin-top: 50px;
+}
+/* /fine regole uff vendite */
+
+
+/* inizio regole sezione contatto */
+#flex-container-contatto {
+    width: 60%;
+    margin: 100px auto 50px auto;
+    display: flex;
+}
+
+#item-left-contatto {
+    width: 60%;
+}
+
+#item-left-contatto img {
+    max-width: 100%;
+}
+
+#item-right-contatto {
+    width: 40%;
+}
+
+#item-right-contatto > div {
+    padding: 40px;
+}
+
+#item-right-contatto h1 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#item-right-contatto p {
+    margin-bottom: 50px;
+}
+
+.white-button {
+    width: 30%;
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border: solid 2px black;
 }
