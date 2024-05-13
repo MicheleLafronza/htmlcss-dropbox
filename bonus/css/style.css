@@ -478,6 +478,20 @@ nav ul a {
     filter: brightness(0) invert(1);
 }
 
+.customer-selected {
+    width: 100%;
+    height: 100%;
+    border: solid 10px rgba(209,233,205,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-selected img {
+    max-width: 40%;
+    filter: brightness(0) invert(1);
+}
+
 /* regole customer centrale */
 #customer-central {
     background-color: rgba(245,245,245,255);
@@ -504,13 +518,10 @@ nav ul a {
     margin-top: 50px;
     margin-bottom: 140px;
 }
-
-
-
 /* /fine regole customer centrale */
 
 
-/* regole id vari marchi */
+/* regole id vari colori marchi */
 #designit {
     background-color: rgba(162,211,155,255);
 }
