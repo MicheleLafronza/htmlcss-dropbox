@@ -182,8 +182,21 @@ nav ul a {
 .plan-details-list {
     list-style-type: none;
     margin-bottom: 40px;
-    min-height: 160px;
 
+}
+
+.users-detail li {
+    position: relative;
+}
+
+.users-detail span {
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.users-detail .fa-solid {
+    position: absolute;
+    top: 2px;
 }
 
 .check-blue li::marker {
