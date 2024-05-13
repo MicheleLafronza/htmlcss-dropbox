@@ -271,6 +271,7 @@ nav ul a {
     width: 60%;
     margin-left: 20px;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 /* /fine regole uff vendite */
 
@@ -384,8 +385,8 @@ nav ul a {
 
 .col-customer {
     width: calc(100% / 3);
-    /* debug */
-    min-height: 500px; 
+    /* debug 
+    min-height: 500px; */
 }
 
 .col-customer-side {
@@ -431,6 +432,7 @@ nav ul a {
 
 #firma-customer {
     margin-top: 50px;
+    margin-bottom: 140px;
 }
 
 
