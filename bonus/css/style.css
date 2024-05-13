@@ -14,7 +14,7 @@ header {
     width: 100%;
     background-color: rgba(180,208,231,255);
     /* DEBUG */
-    min-height: 300px;
+    height: 726px;
 }
 
 /* regole nav */
