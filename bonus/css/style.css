@@ -589,16 +589,33 @@ nav ul a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     border-top: solid 1px rgba(184,184,184,255);
-    border-bottom: solid 1px rgba(184,184,184,255);
     
 }
 
 .question {
     padding: 40px 0 40px 0;
     font-weight: bold;
-    
+    display: inline-block;
+
 }
+
+.faq-container p {
+    color: grey;
+    display: none;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+
+.faq-container:hover p {
+    display: block;
+}
+
+#faq div:last-child {
+    border-bottom: solid 1px rgba(184,184,184,255);
+}
+
 /* fine regole faq */
 /* /FINE REGOLE MAIN */
 
