@@ -40,6 +40,10 @@ nav ul {
 
 nav ul a {
     color: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #nav-ul-left {
@@ -50,6 +54,37 @@ nav ul a {
     margin-right: 10px;
     justify-content: flex-end;
 }
+
+/* LINE TRY */
+
+#nav-ul-right li {
+    position: relative;
+}
+
+.down-line {
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    width: 100%;
+    border-bottom: solid 2px green;
+    transition: all 0.5s;
+
+}
+
+#nav-ul-right a:hover .down-line{
+    display: inline-block;
+}
+
+#nav-ul-left li {
+    position: relative;
+}
+
+#nav-ul-left a:hover .down-line{
+    display: inline-block;
+}
+
+/* LINE TRY */
 
 #little-button {
     width: 15%;
